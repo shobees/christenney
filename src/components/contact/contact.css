@@ -1,0 +1,45 @@
+#contact-us {
+  background-image: url(../../images/img-2.jpg);
+  color: #fff;
+}
+#contact-us .overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+.heading {
+  text-align: center;
+  padding: 50px;
+  font-weight: 400;
+  font-size: 40px;
+}
+.form {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+input {
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  height: 150px;
+  padding: 10px;
+}
+#button {
+  margin-top: 25px;
+  background-color: #d34f3d;
+  padding: 10px 35px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}

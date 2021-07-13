@@ -1,0 +1,16 @@
+.navsList {
+  text-align: center;
+  list-style: none;
+  position: absolute;
+  top: 85px;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+}
+.navsItem {
+  margin-right: 5%;
+  display: inline-block;
+}
+.navsItem a:hover {
+  color: #ae6927 !important;
+}

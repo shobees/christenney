@@ -1,0 +1,12 @@
+#demos {
+  padding: 50px 0px;
+}
+#demos h2 {
+  font-weight: 900;
+  font-size: 22px;
+  padding: 30px 0px;
+}
+audio {
+  width: 80%;
+  outline: none;
+}

@@ -1,0 +1,79 @@
+.header {
+  background-color: #333;
+  color: #fff;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.header {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+.headerIcons-wraper {
+  text-align: right;
+}
+a {
+  color: #fff !important;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+a:hover {
+  text-decoration: none;
+}
+.icon {
+  margin: 5px;
+  padding: 0px;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  text-align: center !important;
+  display: inline-block;
+  font-size: 12px;
+}
+.contacts-wraper {
+  display: flex;
+}
+.cellNo {
+  display: table;
+  float: none;
+}
+.cellNo i {
+  margin-left: 10px;
+  margin-right: 4px;
+  padding: 0px 0px;
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+  line-height: 16px;
+}
+.cellNo p {
+  display: table-cell;
+  vertical-align: middle;
+  width: auto !important;
+  font-size: 14px;
+  font-weight: inherit;
+  text-align: center;
+}
+.facebook:hover {
+  color: #4267b2;
+}
+.twitter:hover {
+  color: #1da1f2;
+}
+.youtube:hover {
+  color: #ff0000;
+}
+.linkedin:hover {
+  color: #0e76a8;
+}
+.instagram:hover {
+  color: #db4e7b;
+}
+@media (max-width: 768px) {
+  .contacts-wraper {
+    justify-content: center;
+  }
+  .headerIcons-wraper {
+    text-align: center;
+  }
+}
