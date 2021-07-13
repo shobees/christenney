@@ -17,6 +17,10 @@ a {
   text-decoration: none;
   transition: all 0.1s ease-in-out;
 }
+.headerIcons-wraper a i {
+  margin: 0 10px;
+  font-size: 14px;
+}
 a:hover {
   text-decoration: none;
 }

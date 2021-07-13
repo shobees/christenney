@@ -34,19 +34,27 @@ const Footer = () => {
   return (
     <Container>
       <Row>
+        <Col>
+          <div className="rights">
+            <p>
+              &copy; 2021 All rights Reserved{" "}
+              <a href="/">voice@christenney.com</a>
+            </p>
+          </div>
+        </Col>
         <Col className="footer-wraper">
-          <a href="/">
+          <button href="#">
             <div className="cellNo">
               <i className="fa fa-mobile"></i>
               <p>202 656 1896</p>
             </div>
-          </a>
-          <a href="/">
+          </button>
+          <button>
             <div className="cellNo">
               <i className="fa fa-envelope"></i>
               <p>voice@christenney.com</p>
             </div>
-          </a>
+          </button>
           {headerIcons.map((icon, index) => (
             <a
               key={index}
@@ -64,14 +72,7 @@ const Footer = () => {
           ))}
         </Col>
       </Row>
-      <Row>
-        <Col>
-          <p className="rights">
-            &copy; 2021 All rights Reserved{" "}
-            <a href="/">voice@christenney.com</a>
-          </p>
-        </Col>
-      </Row>
+      <Row></Row>
     </Container>
   );
 };

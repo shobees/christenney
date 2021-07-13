@@ -14,24 +14,24 @@ const Form = () => {
         <form className="form">
           <Row>
             <Col>
-              <input className="name-input" placeholder="NAME" type="text" />
+              <input className="name-input" placeholder="name" type="text" />
             </Col>
           </Row>
           <Row xs={1} lg={2} md={2}>
             <Col>
-              <input className="email-input" placeholder="EMAIL" type="email" />
+              <input className="email-input" placeholder="email" type="email" />
             </Col>
             <Col>
               <input
                 className="phone-input"
-                placeholder="PHONE"
+                placeholder="phone"
                 type="number"
               />
             </Col>
           </Row>
           <Row>
             <Col>
-              <textarea className="textarea" placeholder="MESSAGE" />
+              <textarea className="textarea" placeholder="message" />
             </Col>
           </Row>
           <button id="button" onClick={handleSubmit}>

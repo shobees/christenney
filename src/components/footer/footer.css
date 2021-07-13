@@ -1,21 +1,32 @@
 .footer {
   background-color: #333;
   color: #fff;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding: 20px;
 }
 .footer-wraper {
   display: flex;
-  justify-content: space-around;
-  justify-content: flex-end;
+  align-items: center;
+}
+.footer-wraper a i {
+  margin: 0 10px;
+  font-size: 14px;
 }
 .footer-navs {
   text-align: right;
 }
+.rights p {
+  margin: 0;
+}
 .rights {
-  font-size: 12px;
+  font-size: 14px;
 }
 .footer .navsItem {
   margin-left: 5%;
   margin-right: 0px;
+}
+
+.footer-wraper button {
+  background: transparent;
+  color: #fff;
+  border: none;
 }
